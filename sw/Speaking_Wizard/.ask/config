@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.c847e0ff-c24e-4c7d-9734-5d1d99a3e8e9",
+      "was_cloned": true,
+      "resources": {
+        "manifest": {
+          "eTag": "1185493134ac2c77d281df6372cf90f6"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "f36ec9178bd8a6efe31bd30232931856"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:970185649827:function:2018_10_23_speakingwizard_final",
+            "awsRegion": "us-east-1",
+            "functionName": "2018_10_23_speakingwizard_final",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "69eb0111-1dd1-4ae3-8b70-fae5e60e1d8f"
+          }
+        ]
+      },
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:970185649827:function:2018_10_23_speakingwizard_final"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "EDU-AI Lab Speaking Wizard Pilot Test",
+          "examplePhrases": [
+            "Alexa, open speaking wizard",
+            "Alexa, start speaking wizard"
+          ],
+          "keywords": [],
+          "name": "Speaking Wizard",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/80c4/be1a057c1882428da56d404746ce56cf/APP_ICON?versionId=_GI7lAXETkYela_q4.m8pC8QGZscw.XZ&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547628599&Signature=V0Z4KHpK7Mm00QW9JQoBC1aeElI%3D",
+          "description": "Alexa, POLY more faster\nAlexa, POLY faster\nAlexa, POLY fast ...ETC",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/51d2/3fd3a2d618354c77b57ca78b0b41510e/APP_ICON_LARGE?versionId=uZUvJvd2RiG.9lVeMVi3zK7._gAVb7RU&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547628599&Signature=t3GDdUQsrfQLQTGekA%2FZjNCWWjk%3D"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "POLY test",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionMode": "PRIVATE",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": ".\\lambda\\us-east-1_2018_10_23_speakingwizard_final"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "http://www.amazon.com"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    }
+  }
+}
