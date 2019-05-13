@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script>
+      function getMultipledNumber(){
+         var inputNumber = document.getElementById("inputNumber").value;
+         var multipledNumber = Android.getMultiple(inputNumber);
+         document.getElementById("result").value = multipledNumber;
+      }
+    </script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Webview<->Native 통신</p>
+    <div align="center">
+      <input type="text" id="inputNumber" placeholder="제곱할숫자" size="44"/>
+      <input type="text" id="result" placeholder="제곱한결과" size="44"/>
+      <input type="button" id="runExample" onclick="getMultipledNumber()" value="제곱 구하기" />
+    </div>
+  </body>
+</html>
